@@ -73,11 +73,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiClientCodeGen.VSIX.Dev17
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiClientCodeGen.CLI.Tests", "CLI\ApiClientCodeGen.CLI.Tests\ApiClientCodeGen.CLI.Tests.csproj", "{47233C8D-0BAE-43CC-95C7-3C9FB73F103B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharperPlugin.ApiClientCodeGen.Rider", "Rider\src\dotnet\ReSharperPlugin.ApiClientCodeGen.Rider\ReSharperPlugin.ApiClientCodeGen.Rider.csproj", "{3852CB1B-DADB-448D-ADD7-120901B856B1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharperPlugin.ApiClientCodeGen", "Rider\src\dotnet\ReSharperPlugin.ApiClientCodeGen\ReSharperPlugin.ApiClientCodeGen.csproj", "{ACEAE424-5F6F-45C9-AF5E-E8C9BF7E2897}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharperPlugin.ApiClientCodeGen.Rider.Tests", "Rider\src\dotnet\ReSharperPlugin.ApiClientCodeGen.Rider.Tests\ReSharperPlugin.ApiClientCodeGen.Rider.Tests.csproj", "{06AF3DE2-6E29-4BD3-AD6A-6A04AD86CB22}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharperPlugin.ApiClientCodeGen.Rider", "Rider\src\dotnet\ReSharperPlugin.ApiClientCodeGen\ReSharperPlugin.ApiClientCodeGen.Rider.csproj", "{87B7CE13-E0D7-4546-A217-09913D2156B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharperPlugin.ApiClientCodeGen.Rider.Rider", "Rider\src\dotnet\ReSharperPlugin.ApiClientCodeGen.Rider\ReSharperPlugin.ApiClientCodeGen.Rider.Rider.csproj", "{AD777076-7588-45DF-9BE8-8B5660D41BBC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharperPlugin.ApiClientCodeGen.Tests", "Rider\src\dotnet\ReSharperPlugin.ApiClientCodeGen.Tests\ReSharperPlugin.ApiClientCodeGen.Tests.csproj", "{C8632E9A-4E18-4E59-9B81-2782A102A086}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -196,6 +196,30 @@ Global
 		{AD777076-7588-45DF-9BE8-8B5660D41BBC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AD777076-7588-45DF-9BE8-8B5660D41BBC}.Release|x86.ActiveCfg = Release|Any CPU
 		{AD777076-7588-45DF-9BE8-8B5660D41BBC}.Release|x86.Build.0 = Release|Any CPU
+		{ACEAE424-5F6F-45C9-AF5E-E8C9BF7E2897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACEAE424-5F6F-45C9-AF5E-E8C9BF7E2897}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACEAE424-5F6F-45C9-AF5E-E8C9BF7E2897}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{ACEAE424-5F6F-45C9-AF5E-E8C9BF7E2897}.Debug|x86.Build.0 = Debug|Any CPU
+		{ACEAE424-5F6F-45C9-AF5E-E8C9BF7E2897}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACEAE424-5F6F-45C9-AF5E-E8C9BF7E2897}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACEAE424-5F6F-45C9-AF5E-E8C9BF7E2897}.Release|x86.ActiveCfg = Release|Any CPU
+		{ACEAE424-5F6F-45C9-AF5E-E8C9BF7E2897}.Release|x86.Build.0 = Release|Any CPU
+		{87B7CE13-E0D7-4546-A217-09913D2156B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87B7CE13-E0D7-4546-A217-09913D2156B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87B7CE13-E0D7-4546-A217-09913D2156B6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{87B7CE13-E0D7-4546-A217-09913D2156B6}.Debug|x86.Build.0 = Debug|Any CPU
+		{87B7CE13-E0D7-4546-A217-09913D2156B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87B7CE13-E0D7-4546-A217-09913D2156B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87B7CE13-E0D7-4546-A217-09913D2156B6}.Release|x86.ActiveCfg = Release|Any CPU
+		{87B7CE13-E0D7-4546-A217-09913D2156B6}.Release|x86.Build.0 = Release|Any CPU
+		{C8632E9A-4E18-4E59-9B81-2782A102A086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8632E9A-4E18-4E59-9B81-2782A102A086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8632E9A-4E18-4E59-9B81-2782A102A086}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C8632E9A-4E18-4E59-9B81-2782A102A086}.Debug|x86.Build.0 = Debug|Any CPU
+		{C8632E9A-4E18-4E59-9B81-2782A102A086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8632E9A-4E18-4E59-9B81-2782A102A086}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8632E9A-4E18-4E59-9B81-2782A102A086}.Release|x86.ActiveCfg = Release|Any CPU
+		{C8632E9A-4E18-4E59-9B81-2782A102A086}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
