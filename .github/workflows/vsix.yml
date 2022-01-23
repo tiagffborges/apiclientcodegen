@@ -6,6 +6,9 @@ on:
     paths-ignore:
       - '**/*'
       - '!.github/workflows/vsix.yml'
+      - 'src/CLI/ApiClientCodeGen.CLI*/**'
+      - 'src/VSMac/ApiClientCodeGen.VSMac*/**'
+      - 'src/Rider/**'
       - '!src/VSIX/**/*.csproj'
       - '!src/VSIX/**/*.cs'
     branches:
